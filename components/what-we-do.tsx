@@ -23,12 +23,12 @@ const WhatWeDoArray = [
         subheading: "Stay ahead with our continuously evolving AI models, designed for cutting-edge applications in various industries."
     },
     {
-        icon: <FileText size={60} className="text-[var(--primary)]" />,
+        icon: <Info size={60} className="text-[var(--primary)]" />,
         heading: "AI Models Struggle to Adapt to New Data",
         subheading: "With automated retraining pipelines and self-improving algorithms, our models evolve alongside your business, ensuring long-term accuracy."
     },
     {
-        icon: <Clock size={60} className="text-[var(--primary)]" />,
+        icon: <FileText size={60} className="text-[var(--primary)]" />,
         heading: "Lack of Explainability and Trust in AI Decisions",
         subheading: "We develop AI models with explainability at their core, integrating interpretable architectures and transparent reporting."
     },
