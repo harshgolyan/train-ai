@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
     return (
         <>
-            <div className="flex flex-col items-center justify-center py-20">
+            <div className="flex flex-col items-center justify-center py-20 mb-16">
                 <div className="uppercase px-6 py-2 rounded-xl border border-[var(--primary)] text-[var(--primary)] text-sm tracking-[0.1rem]">
                     ai trainer model solutions
                 </div>
