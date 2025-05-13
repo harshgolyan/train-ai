@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="lg:text-[5rem] text-[3rem] font-semibold text-center max-w-5xl bg-gradient-to-r from-white to-[var(--primary)] text-transparent bg-clip-text leading-[5rem] py-6">
                     Unlock the Full Potential of Your AI Models
                 </div>
-                <div className="text-[1.2rem] font-medium text-center text-gray-300 max-w-xl py-6">
+                <div className="text-[1.2rem] font-medium text-center dark:text-gray-300 text-gray-600 max-w-xl py-6">
                     We develop cutting-edge AI training models to accelerate
                     your innovation. Smarter, faster, and more efficient AI
                     starts here.

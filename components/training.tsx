@@ -42,7 +42,7 @@ function TrainingCard({heading, subheading}: {
 }) {
     return (
         <>
-            <div className='flex flex-col p-6 bg-orange-950 rounded-xl'>
+            <div className='flex flex-col p-6 bg-orange-950 rounded-xl dark:text-gray-600 text-white'>
                 <div className='text-[4rem] font-semibold leading-[5rem] py-6'>{heading}</div>
                 <div className='text-[1.2rem] font-medium'>{subheading}</div>
             </div>

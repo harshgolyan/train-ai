@@ -39,8 +39,8 @@ export default function WhatWeDo() {
         <div className='flex flex-col justify-center items-center mb-60'>
             <div className='border border-[var(--primary)] text-[var(--primary)] font-semibold rounded-xl px-6 py-2'>What We Do</div>
             <div className='lg:text-[5rem] text-[3rem] font-semibold max-w-2xl text-center leading-[5rem] py-6'>Your AI models deserve better</div>
-            <div className='text-[1.2rem] font-medium text-gray-200 max-w-2xl text-center'>Building AI is challenging, but it shouldn’t be a roadblock. We solve the biggest hurdles in AI training—so you can focus on innovation, not limitations.</div>
-            <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8 py-10">
+            <div className='text-[1.2rem] font-medium dark:text-gray-200 text-gray-600 max-w-2xl text-center'>Building AI is challenging, but it shouldn’t be a roadblock. We solve the biggest hurdles in AI training—so you can focus on innovation, not limitations.</div>
+            <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-8 py-10 px-2">
                 {WhatWeDoArray.map((card, idx) => (
                     <WhatWeDoCard key={idx} icon={card.icon} heading={card.heading} subheading={card.subheading} />
                 ))}
@@ -57,10 +57,10 @@ function WhatWeDoCard({ icon, heading, subheading }: {
 }) {
     return (
         <>
-            <div className="flex flex-col gap-8 items-center text-center sm:px-6 px-3 py-10 rounded-xl bg-slate-950">
+            <div className="flex flex-col gap-8 items-center text-center sm:px-6 px-3 py-10 rounded-xl drak:bg-slate-950 bg-slate-200">
                 <div>{icon}</div>
-                <div className="text-[2rem] font-semibold max-w-xs">{heading}</div>
-                <div className="font-medium max-w-sm text-gray-200 leading-[2rem]">{subheading}</div>
+                <div className="text-[2rem] font-semibold max-w-xs text-white">{heading}</div>
+                <div className="font-medium max-w-sm dark:text-gray-200 text-gray-600 leading-[2rem]">{subheading}</div>
             </div>
         </>
     )
