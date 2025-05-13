@@ -7,6 +7,7 @@ import GetReady from "@/components/get-ready";
 import Insights from "@/components/insights";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import CursorFollower from "@/components/cursor-follower";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Insights />
       <Contact />
       <Footer />
+      <CursorFollower />
     </>
   );
 }

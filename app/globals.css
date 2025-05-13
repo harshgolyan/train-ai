@@ -26,3 +26,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+#custom-cursor {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+

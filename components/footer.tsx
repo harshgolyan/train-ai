@@ -3,7 +3,7 @@ import { Zap } from "lucide-react";
 export default function Footer() {
     return (
         <>
-            <div className="flex lg:justify-between flex-col lg:items-start items-center px-20">
+            <div className="flex lg:flex-row lg:justify-between flex-col lg:items-start items-center px-20">
                 <div className="flex flex-col lg:items-start items-center gap-6">
                     <div className="uppercase text-2xl md:text-4xl font-bold flex lg:items-start items-center gap-5">
                         <Zap
