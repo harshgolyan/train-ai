@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion, useAnimation, useInView, AnimationControls } from "framer-motion";
 import { useRef, useEffect } from "react";
 
 const insightsCardArray = [
@@ -112,7 +112,7 @@ function InsightsCard({
   heading: string;
   subheading: string;
   index: number;
-  controls: any;
+  controls: AnimationControls;
 }) {
   return (
     <motion.div
