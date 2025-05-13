@@ -7,7 +7,7 @@ export default function Contact() {
                 <div className="border border-[var(--primary)] text-[var(--primary)] font-semibold rounded-xl px-6 py-2 w-fit uppercase">
                     Contact
                 </div>
-                <div className="text-[5rem] font-semibold max-w-3xl leading-[5rem] py-6 text-center">
+                <div className="lg:text-[5rem] text-[3rem] font-semibold max-w-3xl leading-[5rem] py-6 text-center">
                     Let’s Build the Future of AI Together
                 </div>
                 <div className="text-[1.2rem] font-medium max-w-2xl text-center">

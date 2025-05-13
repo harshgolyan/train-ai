@@ -11,19 +11,19 @@ const navbarItems = [
     },
     {
         title: "About",
-        url: "/about",
+        url: "/",
     },
     {
         title: "Solution",
-        url: "/solution",
+        url: "/",
     },
     {
         title: "Blog",
-        url: "/blog",
+        url: "/",
     },
     {
         title: "Contact",
-        url: "/contact",
+        url: "/",
     }
 ]
 
@@ -32,20 +32,20 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex justify-between items-center px-6 py-4 md:px-10 md:py-6 relative">
+            <div className="flex justify-between items-center px-6 py-4 xl:px-10 lg:px-6 md:py-6 relative">
                 <div className="absolute -top-70 left-0 w-full h-[25rem] bg-[var(--primary)] mask-[radial-gradient(ellipse_at_center,_var(--primary)_0%,_transparent_70%)] z-0 pointer-events-none"></div>
                 <div className="uppercase text-2xl md:text-4xl font-bold flex items-center gap-5">
                     <Zap className="text-[var(--primary)]" fill="var(--primary)" size={30} />
                     Train<span className="text-[var(--primary)]">●</span>Ai
                 </div>
-                <div className="hidden md:flex items-center gap-10 text-lg font-semibold">
+                <div className="hidden lg:flex items-center xl:gap-10 text-lg font-semibold">
                     {navbarItems.map((item, idx) => (
                         <Link key={idx} href={item.url} className="px-6 py-2 rounded-full hover:bg-white hover:text-[var(--primary)]" >
                             {item.title}
                         </Link>
                     ))}
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <motion.button
                         initial={{
                             scale: 1,
@@ -64,7 +64,7 @@ export default function Navbar() {
                         Get Started
                     </motion.button>
                 </div>
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     <button onClick={() => setIsOpen(true)}>
                         <Menu className="w-8 h-8" />
                     </button>

@@ -3,9 +3,9 @@ import { Zap } from "lucide-react";
 export default function Footer() {
     return (
         <>
-            <div className="flex justify-between items-start px-20">
-                <div className="flex flex-col gap-6">
-                    <div className="uppercase text-2xl md:text-4xl font-bold flex items-center gap-5">
+            <div className="flex lg:justify-between flex-col lg:items-start items-center px-20">
+                <div className="flex flex-col lg:items-start items-center gap-6">
+                    <div className="uppercase text-2xl md:text-4xl font-bold flex lg:items-start items-center gap-5">
                         <Zap
                             className="text-[var(--primary)]"
                             fill="var(--primary)"
@@ -13,15 +13,15 @@ export default function Footer() {
                         />
                         Train<span className="text-[var(--primary)]">●</span>Ai
                     </div>
-                    <div className="text-[1.2rem] font-medium max-w-md">
+                    <div className="text-[1.2rem] font-medium max-w-md lg:text-start text-center">
                         We develop cutting-edge AI training models to accelerate
                         your innovation.
                     </div>
-                    <div className="text-[1.2rem] font-medium py-30">
+                    <div className="text-[1.2rem] font-medium lg:py-30 py-10">
                         harshgolyan308gmail.com
                     </div>
                 </div>
-                <div className="flex items-start gap-40 pr-20">
+                <div className="flex items-start sm:gap-40 gap-15 sm:pr-20">
                     <div className="flex flex-col gap-4">
                         <div className="font-semibold">Sitemap</div>
                         <div>Home</div>
@@ -38,7 +38,7 @@ export default function Footer() {
                         <div>X</div>
                         <div>GitHub</div>
                     </div>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 ">
                         <div className="font-semibold">Links</div>
                         <div>Lifeguide</div>
                         <div>Styling</div>
